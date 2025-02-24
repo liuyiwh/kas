@@ -45,6 +45,7 @@ def load():
     from . import menu
     from . import dump
     from . import lock
+    from . import diff
 
     register_plugins(build)
     register_plugins(checkout)
@@ -53,6 +54,7 @@ def load():
     register_plugins(lock)
     register_plugins(shell)
     register_plugins(menu)
+    register_plugins(diff)
 
 
 def get(name):
